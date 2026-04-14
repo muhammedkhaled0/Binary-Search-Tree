@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Trees/Trees.vcxproj" Id="bd76a9d2-5371-480b-bdcf-b56bfb99c599" />
+</Solution>
