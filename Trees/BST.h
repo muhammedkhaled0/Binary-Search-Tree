@@ -19,9 +19,14 @@ public:
 	void insert(T);
 	bool contains(T val);
 	Node<T>* findNode(T val);
+	void remove(T);
 	void traverse(int order);
 	void inOrder(Node<T>* start);
 	void preOrder(Node<T>* start);
 	void postOrder(Node<T>* start);
+	Node<T>* findParent(T);
+	Node<T>* findMin(Node<T>* start);
+	void deleteBST(Node<T>* node);
+	~BST();
 };
 
